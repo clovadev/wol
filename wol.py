@@ -19,4 +19,5 @@ def wake_on_lan(ip_addr: str, mac_addr: str):
 
 if __name__ == '__main__':
     ip = '220.72.33.255'
-    mac = {'desktop': 'A8:5E:45:E2:AF:F0'}
+    mac = 'A8:5E:45:E2:AF:F0'
+    wake_on_lan(ip, mac)
